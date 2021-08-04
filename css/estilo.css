@@ -1,0 +1,88 @@
+main{
+    height: 700px;
+    width: 800px;
+    margin: 0px auto;
+    border: 1px solid #000000;
+}
+
+.cabecalho{
+    margin-top: 2rem;
+}
+
+
+.cabecalho__icone{
+    margin-top: 2.375rem;
+    margin-right: 1rem;
+}
+.cabecalho__titulo{
+    margin-top: 1rem;
+    font-size:4rem;
+}
+
+.moedas{
+    margin-top: 2rem;
+}
+
+.moedas__titulo{
+    font-size: 2.5rem;
+}
+
+.moedas__div__select{
+    margin-top: 1rem;
+}
+
+.moedas__select{  
+    width: 200px;
+}
+.moedas__icone{
+    margin: 1rem 2rem;
+    width:30px;
+}
+.form-select{
+    width: 200px;
+}
+.resultado{
+    margin-top: 2rem;
+}
+
+.resultado__div{
+    margin-top: 1.5rem;
+    width: 50%;
+}
+
+.resultado__titulo{
+    font-size: 2.5rem;
+}
+
+.form-control{
+    width: 200px;
+}
+
+
+.resultado__div__resposta{
+    margin: 2.5rem;
+}
+
+.rodape__bootstrap{
+    width: 100;
+}
+
+.rodape__bootstrap__titulo{
+ margin-right: 0.5rem;
+}
+
+.bootstrap{
+    color: #BA55D3;
+}
+
+.rodape__bootstrap__icone{
+    color: #BA55D3;
+}
+
+.rodape__git{
+    width: 100;
+}
+
+.rodape__git__titulo{
+    margin-right: .5rem;
+}
