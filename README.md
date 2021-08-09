@@ -1,5 +1,3 @@
-# Conversor de moeda
-
 # Projeto Conversor
 Neste projeto foi desenvolvido um conversor de moedas utilizando bootstrap. O projeto foi pensado em partes com nível crescente de dificultade.
 
