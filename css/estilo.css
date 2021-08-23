@@ -80,9 +80,39 @@ main{
 }
 
 .rodape__git{
-    width: 100;
+    width: 100%;
 }
 
 .rodape__git__titulo{
     margin-right: .5rem;
 }
+
+@media (max-width: 991px) {
+
+    .cabecalho__icone{
+        display: none;
+    }
+
+    
+    main{
+        height: 800px;
+    }
+
+  
+
+}
+
+@media (max-width: 766px){
+    .moedas__select{
+        width: 80%;
+    }
+    .resultado__div{
+        width: 70%;
+    }
+
+    .resultado__titulo{
+        display: none;
+    }
+}
+
+

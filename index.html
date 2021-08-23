@@ -15,7 +15,7 @@
         <div class="container d-flex d-sm-flex justify-content-center principal">  
             <main class="corpo text-center">
                 <header class="cabecalho d-flex d-sm-flex justify-content-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-wallet cabecalho__icone  d-md-block d-none" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-wallet cabecalho__icone" viewBox="0 0 16 16">
                         <path d="M0 3a2 2 0 0 1 2-2h13.5a.5.5 0 0 1 0 1H15v2a1 1 0 0 1 1 1v8.5a1.5 1.5 0 0 1-1.5 1.5h-12A2.5 2.5 0 0 1 0 12.5V3zm1 1.732V12.5A1.5 1.5 0 0 0 2.5 14h12a.5.5 0 0 0 .5-.5V5H2a1.99 1.99 0 0 1-1-.268zM1 3a1 1 0 0 0 1 1h12V2H2a1 1 0 0 0-1 1z"/>
                     </svg>
                     <h1 class="cabecalho__titulo">Conversor de Moedas</h1>
@@ -24,7 +24,7 @@
                 <section class="moedas d-flex flex-column align-items-center flex-wrap">
                     <h2 class="moedas__titulo">Selecione as moedas</h2>
                     <div class="moedas__div__select d-flex align-items-center flex-wrap justify-content-center">
-                        <select class="form-select" aria-label="Disabled select example moedas__select md-width-200px width-100%" id="moedaentrada">
+                        <select class="form-select moedas__select" aria-label="Disabled select example" id="moedaentrada">
                             <option selected>Moeda de entrada</option>
                             <option value="USD">Dóllar</option>
                             <option value="BRL">Real</option>
@@ -33,7 +33,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" fill="currentColor" class="bi bi-arrow-left-right moedas__icone" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z"/>
                         </svg>
-                        <select class="form-select" aria-label="Disabled select example moedas__select width-100% md-width-200px" id="moedasaida">
+                        <select class="form-select moedas__select" aria-label="Disabled select example" id="moedasaida">
                             <option selected>Moeda de saida</option>
                             <option value="USD">Dóllar</option>
                             <option value="BRL">Real</option>
@@ -44,7 +44,7 @@
                 </section>
 
                 <section class="resultado d-flex flex-column align-items-center">
-                    <h2 class="resultado__titulo d-none d-md-block">Digite o valor desejado</h2>
+                    <h2 class="resultado__titulo">Digite o valor desejado</h2>
                     <div class="resultado__div d-flex align-items-center justify-content-between">
                         <input type="text" class="retultado__input__valor form-control" placeholder="valor a ser convertido" id="quantidade">
                         <button type="button" class="btn btn-dark resultado__button" id="converter">Converter</button>
